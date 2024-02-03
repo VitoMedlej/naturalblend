@@ -97,6 +97,7 @@ export default function SimpleAccordion({handleSubmit,options,setOptions}:any) {
  options?.category?.toLocaleLowerCase() === 'organic herbs' ?
 [
     'All',
+    'shilajit',
     `Milk thistle`, `Sea moss`  ,`Yohimbe bark` ,'Water pill' , `Multi vitamins`,
 
 `MACA`,

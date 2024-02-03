@@ -125,7 +125,7 @@ router.push(`/organic herbs/products`)}}
       </ListItemButton>
 </ListItem>
 
-{[`MACA`,
+{[`MACA`, 'shilajit',
      `Milk thistle`, `Sea moss`  ,`Yohimbe bark` ,'Water pill' , `Multi vitamins`,
 
 `Bacopa Monnieri`,
