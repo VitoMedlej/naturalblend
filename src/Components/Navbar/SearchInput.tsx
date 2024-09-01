@@ -29,7 +29,7 @@ export default function SearchInput({sx,mobile,handleSubmit,newValue}:{newValue?
       className='searchinput '
       sx={{
         py:'.25em',
-        mx:2,
+        mx:{xs:0,md:2},
         // my:'.25em',
         mb: mobile ? '.25em' : '0',
         px:'.5em',
@@ -42,7 +42,7 @@ export default function SearchInput({sx,mobile,handleSubmit,newValue}:{newValue?
         
         //  display: mobile ? {xs:'flex',md:'none'} : {xs:'none',md:'flex'},
          display:'flex',
-         alignItems: 'center',maxWidth:{xs:'100%',md:'600px',lg:'60%'}
+         alignItems: 'center',maxWidth:{xs:'95%',md:'600px',lg:'60%'}
          ,...sx
         }}
     >
